@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Outer Gamepad Silhouette -->
+    <path
+        android:fillColor="#151B26"
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="2.5"
+        android:pathData="M34,39 L74,39 C81,39 86,44 87,52 L89,67 C90,73 85,77 80,75 L70,69 C68,68 66,67 63,67 L45,67 C42,67 40,68 38,69 L28,75 C23,77 18,73 19,67 L21,52 C22,44 27,39 34,39 Z" />
+
+    <!-- D-Pad (Left) -->
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M33,47 h4 v4 h4 v4 h-4 v4 h-4 v-4 h-4 v-4 h4 z" />
+
+    <!-- ABXY Buttons (Right) -->
+    <path
+        android:fillColor="#FFD740"
+        android:pathData="M73,47 m-2.2,0 a2.2,2.2 0 1,1 4.4,0 a2.2,2.2 0 1,1 -4.4,0" />
+    <path
+        android:fillColor="#00E676"
+        android:pathData="M73,57 m-2.2,0 a2.2,2.2 0 1,1 4.4,0 a2.2,2.2 0 1,1 -4.4,0" />
+    <path
+        android:fillColor="#40C4FF"
+        android:pathData="M68,52 m-2.2,0 a2.2,2.2 0 1,1 4.4,0 a2.2,2.2 0 1,1 -4.4,0" />
+    <path
+        android:fillColor="#FF5252"
+        android:pathData="M78,52 m-2.2,0 a2.2,2.2 0 1,1 4.4,0 a2.2,2.2 0 1,1 -4.4,0" />
+
+    <!-- Center Bluetooth Bridge Wave -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="2.2"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M51,46 L57,52 L54,55 L54,43 L57,46 L51,52" />
+</vector>
